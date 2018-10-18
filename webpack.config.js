@@ -1,7 +1,6 @@
 module.exports = {
     entry: {
       pageOne:  "./src/index.tsx",
-      pageTwo: './game.tsx'
     },
     output: {
         filename: "[name].js",
@@ -18,6 +17,11 @@ module.exports = {
 
     module: {
         rules: [
+            {
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
+            },
+
             // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
             { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
 

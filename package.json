@@ -11,9 +11,13 @@
   "dependencies": {
     "@types/react": "^16.4.18",
     "@types/react-dom": "^16.0.9",
+    "ag-grid-community": "^19.0.0",
+    "ag-grid-react": "^19.0.0",
+    "css-loader": "^1.0.0",
     "npm": "^6.4.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "style-loader": "^0.23.1",
     "webpack": "^4.20.2"
   },
   "devDependencies": {
